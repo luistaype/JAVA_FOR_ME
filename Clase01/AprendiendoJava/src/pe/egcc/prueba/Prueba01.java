@@ -22,6 +22,7 @@ public class Prueba01
         est01.setEmail("albert@gmail.com");
         est01.setCasado(true);
         
+//        Estudiante est02 = new Estudiante();
         System.out.println("Nombre: " + est01.getNombre());
         System.out.println("--------------------------");
         System.out.println(est01);

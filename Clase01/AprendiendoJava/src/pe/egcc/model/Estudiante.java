@@ -8,8 +8,30 @@ public class Estudiante
     private boolean casado;
     private String email;
 
+    public Estudiante()
+    {
+        nombre = "jose";
+        apellido = "robinson";
+        edad = 25;
+        casado = true;
+        email = "jrobinson@hotmail.com";
+    }
     
-    
+    /**
+     * @param nombre Nombre del Estudiante.
+     * @param apellido Apellido del Estudiante.
+     * @param edad Edad, debe ser mayor que cero.
+     * @param casado Estado civil.
+     * @param email Email del Estudiante.
+     */
+
+    public Estudiante(String nombre, String apellido, int edad, boolean casado, String email) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.casado = casado;
+        this.email = email;
+    }
     
     /**
      * @return the nombre
